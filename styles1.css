@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(lenkrad.jpeg),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  text-align: start;
+  padding: 2rem;
+
+  --primary-color: #750d16;
+  --second-color: #1d1515;
+}
+
+.uebersicht {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  width: 100%;
+  align-content: space-between;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 500px;
+  background-image: url(lenkrad.jpeg),
+    linear-gradient(rgba(241, 231, 231, 0.9), rgb(255, 255, 255));
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
+.info {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+
+.heading {
+  color: #ddd;
+  background-color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Play", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  border-radius: 6px 6px 0 0;
+  opacity: 1;
+}
+
+.bestellen {
+  background-color: var(--second-color);
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  width: fit-content;
+  text-decoration: none;
+  color: #ddd;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
+}
+
+.bestellen:hover,
+.home:hover {
+  background-color: inherit;
+  transition: all 0.3s ease-in-out;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.home {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: #ddd;
+  border-radius: 30px;
+}
+
+.arrow {
+  border: solid rgb(248, 244, 244);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+}
+
+@media only screen and (min-width: 1000px) {
+  .uebersicht {
+    gap: 4rem;
+  }
+}
