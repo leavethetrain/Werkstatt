@@ -8,7 +8,7 @@
 
 body {
   height: 100vh;
-  background-image: url(lenkrad.jpeg),
+  background-image: url(./img/lenkrad.jpeg),
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-size: cover;
@@ -38,7 +38,7 @@ body {
   justify-content: space-between;
   width: 300px;
   height: 500px;
-  background-image: url(lenkrad.jpeg),
+  background-image: url(./img/lenkrad.jpeg),
     linear-gradient(rgba(241, 231, 231, 0.9), rgb(255, 255, 255));
   background-size: cover;
   background-blend-mode: overlay;

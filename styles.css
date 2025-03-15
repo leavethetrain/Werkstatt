@@ -28,7 +28,7 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  background-image: url(audimountain.jpeg),
+  background-image: url(./img/audimountain.jpeg),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
 
@@ -175,7 +175,7 @@ body {
   padding: 2rem 0;
   background-repeat: no repeat;
   background-position: center;
-  background-image: url(wheel.jpg),
+  background-image: url(./img/wheel.jpg),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
